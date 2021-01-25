@@ -1,0 +1,4 @@
+<app-user *ngFor="let u of users" [user]="u" (bubleUpUser)="getBubbleUser($event)">
+</app-user>
+<hr>
+<h2>{{chosenOne?.id+":"}}</h2><h1>{{chosenOne?.title}}</h1><h3> {{chosenOne?.body}}</h3>
